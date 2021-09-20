@@ -3,12 +3,13 @@
 This software is for connecting your Griffin PowerMate
 over BLE to your linux computer.
 I provide no warranty for this software.
+
 **I am not affiliated with Griffin Technology Inc. nor is this software.**
 
 ---
 
 ## Installation:
-`npm i powermate-ble`
+`npm i powermate-ble -g`
 
 ## Usage:
 > You must pass in valid arguments. Postition 0 is the hardware MAC, 1 is the primaryService and 2 is the characteristic. (See example below)

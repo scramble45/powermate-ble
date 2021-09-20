@@ -1,0 +1,30 @@
+{
+  "name": "powermate-ble",
+  "version": "1.0.0",
+  "description": "Griffin PowerMate bluetooth controller for linux",
+  "main": "index.js",
+  "bin": {
+    "griffinBLE": "./bin/griffin.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rowan Hamilton",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "node-ble": "^1.5.0"
+  },
+  "keywords": [
+    "griffin",
+    "powermate",
+    "linux",
+    "ble",
+    "gatt",
+    "xdotool",
+    "node-ble"
+  ]
+}

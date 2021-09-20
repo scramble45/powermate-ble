@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const {createBluetooth} = require('node-ble');
 const {bluetooth, destroy} = createBluetooth();
 const util = require('util');

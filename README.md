@@ -22,6 +22,9 @@ I provide no warranty for this software.
 - Single click - Pause playpack
 - Hold click - Mute volume
 
+# Enable BLE
+`sudo btmgmt le on` - may have to do this on some systems.
+
 ## Systemd Example with (nvm):
 ```
 [Unit]
